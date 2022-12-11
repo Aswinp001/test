@@ -1,0 +1,64 @@
+.mainbody{
+    width:100%;
+    height:1200px;
+    background-color:#3AAFA9 ;
+}
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+    border: solid 5PX;
+    border-color: aliceblue;
+    border-style: double;
+    HEIGHT:150PX;
+  
+  
+  }
+  .firstpart{
+    width: 50%;
+
+  
+
+  }
+  .secondpart{
+  
+    width:50%;
+
+  }
+  .img{
+    border-radius: 20px;
+  }
+  .text{
+    font-size: 100px;
+  }
+#about{
+text-align: center;
+font-style: italic;
+}
+#contact{
+text-align: center;
+font-style: italic;
+}
+.text{
+  text-align: center;
+}
+  .footer{
+    text-align: center;
+  }
+  .img{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+.hai{
+  margin-top: 40px;
+  margin-left: 400px;
+  border: solid 2PX;
+
+  width: 300px;
+}
+  @media  screen and(max-width:500px) {
+    footer{
+      background-color: red;
+    }
+    
+  }
